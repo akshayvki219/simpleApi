@@ -19,7 +19,7 @@ public class simpleServices {
         return  repo.findAll();
     }
 
-    public void save(simpleEntry newEntry) {
+    public void save(simpleEntry newEntry, String userName) {
         repo.save(newEntry);
     }
 
